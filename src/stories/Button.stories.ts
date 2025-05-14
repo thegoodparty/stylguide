@@ -15,14 +15,14 @@ type Story = StoryObj<typeof Button>
 
 export const Default: Story = {
   args: {
-    children: 'Click me',
+    children: 'Click Me',
     variant: 'default',
   },
 }
 
 export const Outline: Story = {
   args: {
-    children: 'Outline button',
+    children: 'Click Me',
     variant: 'outline',
   },
 }
