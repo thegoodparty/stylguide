@@ -50,7 +50,7 @@ npm run storybook
 
 ## 📘 Related Article
 
-This project is based on the detailed step-by-step guide:  
+This repo is the companion to my Medium guide::  
 **[How to Build a React UI Component Library (ShadCN + Tailwind v4 + Vite)](https://blog.ashutoshtiwari.co.in/how-to-build-a-react-ui-component-library-a-step-by-step-guide-using-shadcn-ui-vite-tailwind-36c1b89e2113)**
 
 ## 🛠️ Customization
