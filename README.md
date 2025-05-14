@@ -1,13 +1,13 @@
-# 🧱 Aether UI – React Component Library Starter
+# Aether UI – React Component Library Starter
 
 Aether UI is a modern starter template to build your own React UI component library using:
 
-- 🌀 **TailwindCSS v4**
-- ⚛️ **React 19**
-- 🚀 **Vite**
-- 🧩 **shadcn/ui**
-- 🧪 **Storybook**
-- 🦾 **TypeScript**
+- **TailwindCSS v4**
+- **React 19**
+- **Vite**
+- **shadcn/ui**
+- **Storybook**
+- **TypeScript**
 
 ## 📦 Features
 
