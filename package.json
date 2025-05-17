@@ -1,15 +1,21 @@
 {
-  "name": "aether-ui",
-  "private": true,
-  "version": "0.0.0",
+  "name": "goodparty-styleguide",
+  "version": "1.0.0",
   "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsup src/components/ui/index.ts --dts --format esm,cjs --out-dir dist",
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
   },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",

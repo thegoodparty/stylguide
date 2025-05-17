@@ -1,67 +1,55 @@
-# Aether UI – React Component Library Starter
+# goodparty-styleguide
 
-Aether UI is a modern starter template to build your own React UI component library using:
+## 📦 Installation
 
-- **TailwindCSS v4**
-- **React 19**
-- **Vite**
-- **shadcn/ui**
-- **Storybook**
-- **TypeScript**
-
-## 📦 Features
-
-- Tailwind CSS v4 integration with CSS variables
-- React 19-compatible setup
-- Vite-powered for fast builds and HMR
-- Preconfigured Storybook for component-driven development
-- Opinionated structure using shadcn/ui best practices
-- Exportable component system
-- Example components: `Button`
-
-## 📂 Project Structure
-
-```
-src/
-├── components/         # Reusable UI components
-├── lib/                # Utility functions and types
-├── stories/            # Component stories
-├── index.ts            # Central export file
-.storybook/             # Storybook configuration
-vite.config.ts          # Vite configuration
-```
-
-## 🚀 Getting Started
+Install the package from npm:
 
 ```bash
-# 1. Clone the repo
-git clone https://github.com/iashutoshtiwari/aether-ui.git
-
-# 2. Install dependencies
-cd aether-ui
-npm install  # or yarn / pnpm
-
-# 3. Start the dev server
-npm run dev
-
-# 4. Launch Storybook
-npm run storybook
+npm install goodparty-styleguide
+# or
+yarn add goodparty-styleguide
+# or
+pnpm add goodparty-styleguide
 ```
 
-## 📘 Related Article
+> **Peer dependencies:** You must have `react` and `react-dom` installed in your project.
 
-This repo is the companion to my Medium guide::  
-**[How to Build a React UI Component Library](https://blog.ashutoshtiwari.co.in/how-to-build-a-react-ui-component-library-a-step-by-step-guide-using-shadcn-ui-vite-tailwind-36c1b89e2113)**
+## 🚀 Usage
 
-## 🛠️ Customization
+Import components directly from the package:
 
-Feel free to:
+```tsx
+import { Button, Input, Card } from "goodparty-styleguide";
 
-- Add your own components
-- Modify the design tokens via Tailwind config
-- Extend shadcn/ui and Tailwind plugins
-- Set up npm publishing workflows
+export default function Example() {
+  return (
+    <Card>
+      <Input placeholder="Type here..." />
+      <Button>Click me</Button>
+    </Card>
+  );
+}
+```
+
+## 🛠️ Development
+
+```bash
+# Clone the repo
+# (or work in your own monorepo)
+git clone ...
+cd goodparty-styleguide
+npm install
+
+# Start the dev server
+npm run dev
+
+# Launch Storybook
+npm run storybook
+
+# Build the package for npm
+npm run build
+```
 
 ## 📄 License
 
-MIT © [Ashutosh Tiwari](https://ashutoshtiwari.co.in)
+MIT
